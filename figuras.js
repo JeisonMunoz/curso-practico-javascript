@@ -119,3 +119,12 @@ function calcularAreaTriangulo() {
     const area = areaTriangulo(base,altura);
     alert(area);
 }
+
+// Funciones del circulo
+function calcularDiametro() {
+    const inputRadio = document.getElementById(inputRadio);
+    const radio = inputRadio.value;
+
+    const diametro = diametroCirculo(radio)
+    alert(diametro)
+}
