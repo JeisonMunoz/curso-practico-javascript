@@ -93,3 +93,29 @@ function calcularAreaCuadrado() {
     const area = areaCuadrado(value);
     alert(area);
 }
+
+// Funciones del triangulo
+
+function calcularPerimetroTriangulo() {
+    const inputLado1 = document.getElementById("inputLado1");
+    const inputLado2 = document.getElementById("inputLado2");
+    const inputBase = document.getElementById("inputBase");
+
+    const lado1 = inputLado1.value;
+    const lado2 = inputLado2.value;
+    const base = inputBase.value;
+
+    const perimetro = perimetroTriangulo(lado1,lado2,base);
+    alert(perimetro);
+
+}
+
+function calcularAreaTriangulo() {
+    const inputBase = document.getElementById("inputBase");
+    const inputAltura = document.getElementById("inputAltura");
+
+    const base = inputBase.value;
+    const altura = inputAltura.value;
+    const area = areaTriangulo(base,altura);
+    alert(area);
+}
