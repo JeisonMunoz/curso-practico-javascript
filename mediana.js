@@ -36,6 +36,7 @@ function onClickCalcularMediana() {
     const inputLista = document.getElementById("inputLista");
     // Al ser un String los valores capturados, se procede a convertir el formato a Number 
     const inputListaValue = inputLista.value;
+    //se transforma el formato a array
     let arrayMediana = Array.from(inputListaValue.split(","), Number);
     
     //   Ordenamos los valores de la lista desordenada mediante el metodo sort() de menor a mayor
