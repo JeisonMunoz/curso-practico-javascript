@@ -15,7 +15,7 @@ Paso 2: Implementar formulas en Javascript
 Paso 3: crear funciones
 Paso 4: Integrar JS con HTML
 
-## Taller #2: Media, Moda y Mediana
+## Taller #3: Media, Moda y Mediana
 
 Paso 1: definir las formulas
 Paso 2: Implementar formulas en Javascript
